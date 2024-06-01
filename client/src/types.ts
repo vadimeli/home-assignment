@@ -4,6 +4,7 @@ export type PostData = {
   content: string;
   date: string;
   imageUrl?: string;
+  like?: {userId: number, name: string}[]
 };
 
 export type UserData = {

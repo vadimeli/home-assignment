@@ -1,6 +1,27 @@
 .post-editor-content {
+  padding: 16px;
   min-width: 400px;
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.post-editor-content textarea {
+  width: 500px;
+  height: 200px;
+}
+
+.post-editor-content .image-url {
+  display: flex;
+  gap: 8px
+}
+
+.post-editor-content .image-url input {
+  flex: 1;
+}
+
+.post-editor-content .action-buttons {
+  align-self: flex-end;
+  display: flex;
+  gap: 16px;
 }
